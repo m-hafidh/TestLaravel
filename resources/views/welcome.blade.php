@@ -7,15 +7,18 @@
     <link rel="stylesheet" href="{{asset('css/style.css')}}">
 </head>
 <body>
-<h1> Premier titre</h1>
-<p> Salut! je suis hafidh le comorien. </p>
+
+
 <nav>
     <ul>
-        <li> <a href="/">Accueil </a></li>
+        <li> <a class="active" href="/">Accueil </a></li>
         <li> <a href="afficher"> Afficher </a></li>
         <li> <a href="test"> Test</a> </li>
+        <li> <a href="#"> Connexion</a> </li>
     </ul>
 </nav>
+<h1> Premier titre</h1>
+<p> Salut! je suis hafidh le comorien. </p>
 
 
 </body>

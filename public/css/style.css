@@ -1,8 +1,75 @@
-
+body{
+    margin: 0;
+}
 *{
+    margin: 0px;
+    padding: 0px;
+    font-size: avenir,sans-serif;
+}
+nav{
+    width: 100%;
+    margin: 0px auto 40px auto;
+    background-color: #718096;
+    position: sticky;
+    top:0px
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: beige;
+
+}
+li{
+    float: left;
+    width: 25%;
+
+    text-align: Center;
+}
+li a{
+    display: block;
     color: blueviolet;
-}
- <!--Le Css pour le fichier afficher -->
-p{
     text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
+li a:hover{
+    background-color: #111;
+}
+.active{
+    background-color: #04AA6D /* pour activer l'accueil*/
+
+}
+/*nav ul{
+    list-style-type: non;
+}
+nav li{
+    float: left;
+    width: 25%;
+    text-align: Center;
+}
+*/
+
+nav ul ::after{
+    content: ;
+    display: table;
+    clear: both;
+}
+nav a{
+    display: block;
+    text-decoration: none;
+    border-bottom: 2px solid transparent; /* pour eliminer les trait sur les nav */
+    padding: 10px 0px;
+
+}
+nav a:hover{
+    color: orange;
+    border-bottom: 2px solid gold;
+
+}
+.conteneur{
+    margin: 0px 20px;
+    height: 1500px;
+}
+
