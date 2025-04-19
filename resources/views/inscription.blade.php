@@ -6,6 +6,10 @@
     <title>Laravel</title>
 </head>
 <body>
+@include("header")
+
+@extends("layouts.main") <!--Appelons le fichier qui contien mon layout-->
+@section('contenu')
 
 
 
@@ -18,7 +22,8 @@
        <input type="password" name="password_confirmation" placeholder="Mot de passe confirmation">
        <input type="submit" value="S'inscrire">
    </form>
+@endsection
 
-
+@include("footer")
 </body>
 </html>
