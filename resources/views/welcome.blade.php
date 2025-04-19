@@ -14,7 +14,7 @@
         <li> <a class="active" href="/">Accueil </a></li>
         <li> <a href="afficher"> Afficher </a></li>
         <li> <a href="test"> Test</a> </li>
-        <li> <a href="#"> Connexion</a> </li>
+        <li> <a href="inscription"> Inscription</a> </li>
     </ul>
 </nav>
 <h1> Premier titre</h1>

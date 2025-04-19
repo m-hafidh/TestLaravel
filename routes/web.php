@@ -20,5 +20,18 @@ Route :: get ('/afficher', function (){
     return view('affiche', ['name' =>'Al-fahami'],['prenom'=>'Toihir']);
 });
 
+//une nouvelle route pour la page inscription
+Route :: get ('/inscription', function (){
+  return view('inscription');
 
+});
+// recuperer le champ email
+Route :: post('/inscription', function (){
+    //return 'votre email est : ' .$_POST('email');
+      return 'votre email est : ' .request('email');
+});
+
+//Route::get('/inscription', function (){
+  //  return 'Formumaire reçu';
+//});
 

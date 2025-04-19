@@ -4,8 +4,12 @@ body{
 *{
     margin: 0px;
     padding: 0px;
-    font-size: avenir,sans-serif;
 }
+
+/**{
+    font-size:avenir,sans-serif;
+}*/
+
 nav{
     width: 100%;
     margin: 0px auto 40px auto;
